@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tdlogstu"
+        android:layout_height="64dp"
+        android:layout_gravity="fill_horizontal"
+        android:background="#FFC125"
+        android:gravity="center"
+        android:text="Add Student"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/name_stu"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="2"
+        android:ems="10"
+        android:hint="Enter Student Name" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/code_stu"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:ems="10"
+        android:hint="Enter Student Code" />
+
+    <EditText
+        android:id="@+id/mark_stu"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:ems="10"
+        android:hint="Enter Student Mark" />
+
+    <Space
+        android:layout_column="1"
+        android:layout_gravity="fill_vertical"
+        android:layout_row="7" />
+
+    <EditText
+        android:id="@+id/sex_stu"
+        android:layout_width="match_parent"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="7"
+        android:ems="10"
+        android:hint="Enter Student Sex" />
+
+    <Spinner
+        android:id="@+id/spinner1_stu"
+        android:layout_width="fill_parent"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="1" />
+
+</GridLayout>

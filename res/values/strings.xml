@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_index">Index</string>
+    <string name="title_activity_student_management">StudentManagement</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_class_management">ClassManagement</string>
+    <string name="title_activity_activitymoto">Activitymoto</string>
+
+</resources>
